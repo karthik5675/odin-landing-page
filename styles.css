@@ -1,23 +1,22 @@
 body{
     margin: 0;
 }
-
-
+/* navbar start */
 .navbar{
     background-color: #1F2937;
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    
-    
+    flex-direction: row;
+    gap: 40px;
     
 }
 .nav-links{
     font-size: 18px;
     display: flex;
-    
+    gap: 20px;
     
 }
 a{
@@ -25,4 +24,53 @@ a{
     margin: 5px;
     color: #E5E7EB;
     
+}
+/* navbar end */
+
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_title{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+.header_subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.sign_up{
+    background-color: #3882F6;
+    padding: 0;
+    color: #F9FAF8;
+    border-radius: 5px;
+    width: 100px;
+    margin: 0%;
+    border-color: #3882F6;
+}
+.left{
+    
+    /* transform: translateX(45%); */
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex-direction: column;   
+    width: 35%;
+}
+.right{
+    
+    width: 500px;
+    height: 200px;
+    background-color: rgb(104, 100, 122);
+    text-align: center;
+    color: #F9FAF8;
+    
+    
+}
+
+.left > img{
+    top: 50%;
 }
